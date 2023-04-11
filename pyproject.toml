@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "zemberek"
+version = "0.1.0"
+description = ""
+authors = ["150201190@kocaeli.edu.tr"]
+
+[tool.poetry.dependencies]
+python = "3.9"
+zemberek-python = "^0.1.2"
+antlr4-python3-runtime = "4.8"
+numpy = "^1.22.3"
+pandas = "^1.4.2"
+nltk = "^3.7"
+threadpoolctl = "^3.1.0"
+scikit-learn = "^1.1.1"
+update = "^0.0.1"
+networkx = "^2.8.1"
+grpcio = "^1.46.1"
+protobuf = "^3.20.1"
+colorama = "^0.4.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
