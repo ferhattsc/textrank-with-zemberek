@@ -1,9 +1,23 @@
+## Textrank with Zemberek
+
+Anahtar kelimeler, veriler ile kullanıcının aradıkları içerik arasındaki bağlantıyı
+kurmaktadır. Bu araştırmamızda anahtar kelimeleri bulma algoritmalarından biri
+olan textrank algoritmasını kullandık. Textrank algoritmasını kullanırken
+Zemberek kütüphanesinden faydalanarak Türkçe metinler üzerinde çalışmalar
+yaptık.
+
+#### Textrank Çalışma Prensibi ->
+
+![](assets/20230413_152024_textrank-calisma.png)
+
 ## Installation
+
 Zemberek framework üzerinde işlem yapabilmek için Python-Java arasında iletişimi sağlayacak gRPC protokolu etkinleştirilir.
 
 ```bash
 java -jar zemberek-full.jar StartGrpcServer --dataRoot data/
 ```
+
 Poetry sisteme tanımlanır ve gerekli bağımlılıklar kurulur.
 
 ```bash
